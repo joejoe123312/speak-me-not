@@ -4,24 +4,56 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
+  top: 55%;
   transform: translateY(-50%);
 }
 
-#container strong {
+ion-content.background {
+  --background: url(../../assets/ngongi.jpg) 0 0/100% 100% no-repeat;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.speakBtn {
+  background-color: darkblue;
+  color: white;
   font-size: 20px;
-  line-height: 26px;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+ion-textarea {
+  font-size: 40px;
 }
 
-#container a {
-  text-decoration: none;
+.speed {
+  background-color: black;
+  border-radius: 10px;
+  padding: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.us {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.china {
+  background-color: yellow;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
 }
